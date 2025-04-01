@@ -177,8 +177,4 @@ Optimize reimbursement and manage relationships with insurance providers.
   AvgReimbursementRate = AVERAGE('visits'[Covered_Amount])
   ```
 
-Coverage vs Treatment Costs:
-DAXCopierCoverageVsCost = DIVIDE(SUM('visits'[Covered_Amount]), SUM('visits'[Total_Cost]))
 
-Negotiation Insights:
-DAXCopierAvgReimbursementRate = AVERAGE('visits'[Covered_Amount])
